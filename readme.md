@@ -161,7 +161,7 @@ https://fonts.google.com/specimen/IM+Fell+English+SC?query=english
 
 Ladda ned zippen. Packa upp zippen och lägg den i `src/assets/fonts`.
 
-**Glöm inte att lägga till en `addPassthroughCopy('./src/assets')` i `.eleventy.js config.
+**Glöm inte att lägga till en `addPassthroughCopy('./src/assets')` i `.eleventy.js config.**
 
 Nästa steg är att ladda in fonten från vår sass fil.
 
