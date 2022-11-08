@@ -4,12 +4,20 @@ title: land 👍
 ---
 
 <main class="mainmain">
-    <h1>{{ country[0].name.official }}</h1>
+    <h1>{{ country[0].name.common }}</h1>
     <pre class="griddy">
-        {{ country | dump(2) }}
+        <!-- {{ country | dump(2) }} -->
+        <div class="item1">
         {% image country[0].flags.png, country[0].name.official %}
+        </div>
         <div class="coa item3">
         {% image country[0].coatOfArms.png, "hej", "100vw" %}
+        </div>
+        <div class="p1">
+            <p>{{ country[0].name.official }}</p>
+        </div>
+        <div class="p3">
+            <p>Coat Of Arms</p>
         </div>
     </pre>
 </main>
